@@ -1,0 +1,127 @@
+/*--------------------footer------------*/
+.footer {
+  background-color: #fff;
+}
+
+.subtitle {
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+@media (max-width: 767.98px) {
+  .subtitle {
+    line-height: 18px;
+    font-size: 14px;
+  }
+}
+
+.contacts {
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 114px 0 123px 0;
+}
+
+@media (max-width: 767.98px) {
+  .contacts {
+    padding: 82px 0 90px 0;
+  }
+}
+
+.contacts__text {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .contacts__text {
+    margin-bottom: 40px;
+  }
+}
+
+.contacts__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+@media (max-width: 767.98px) {
+  .contacts__social {
+    margin-bottom: 48px;
+  }
+}
+
+.contacts__link:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contacts__like {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #828282;
+}
+
+.title h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767.98px) {
+  .title h2 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 27px;
+  }
+}
+
+.button {
+  text-align: center;
+}
+
+.button__message {
+  display: inline-block;
+  padding: 13px 29px;
+  background: #000000;
+  border-radius: 43px;
+  font-weight: bold;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0 0 95px 0;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  border: 2px solid #070707;
+}
+
+.button__message:hover {
+  background: #828282;
+  -webkit-box-shadow: #070707 0px 0px 3px 1px;
+          box-shadow: #070707 0px 0px 3px 1px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (max-width: 767.98px) {
+  .button__message {
+    display: block;
+    padding: 6px 0px;
+    font-size: 16px;
+    margin: 0 0 48px 0;
+  }
+}

@@ -1,0 +1,68 @@
+@import "_null.scss";
+@import "_fonts.scss";
+@import "header.scss";
+@import "main";
+@import "footer";
+
+
+body {
+	line-height: 1;
+	font-family: "Gilroy", 'Gilroy-bold';
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+[class*="__container"] {
+	max-width: 970px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+.main {
+	flex-grow: 1;
+}
+._ibg {
+	position: relative;
+	img {
+		object-fit: cover;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+}
+
+/* Условные ПК, ноуты и телевизоры */
+/* 1050 из макета (контейнер + отступы) */
+@media (max-width: 1050px) {
+}
+/* Условные планшеты */
+@media (max-width: 991.98px) {
+}
+/* Условные мобилки */
+@media (max-width: 767.98px) {
+}
+
+[class*="__container"] {
+	max-width: 970px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+@media (max-width: 991.98px) {
+	[class*="__container"] {
+		/* max-width: 750px; */
+	}
+}
+/* №3 */
+@media (max-width: 767.98px) {
+	[class*="__container"] {
+		/* max-width: none; */
+	}
+}
+
+
+
