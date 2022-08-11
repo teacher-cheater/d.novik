@@ -13,17 +13,22 @@
    <div class="wrapper">
       <header class="header">
          <div class="header__container">
-            <div class="header__body">
-               <div class="header__burger">
+            <!--<div class="header__body">-->
+            <div class="header__menu menu"> 
+               <!--<div class="header__burger">
                   <span></span>
-               </div>
-               <nav class="header__menu menu">
+               </div>-->
+               <div class="menu__icon">
+                  <span></span>
+                </div>
+               <!--<nav class="header__menu menu">-->
+                  <nav class="menu__body">
                   <ul class="menu__list">
-                     <li><a class="menu__link" href="#home"> Home</a></li>
-                     <li><a class="menu__link" href="#about-me"> About me</a></li>
-                     <li><a class="menu__link" href="#skills"> Skills</a></li>
-                     <li><a class="menu__link" href="#portfolio"> Portfolio</a></li>
-                     <li><a class="menu__link" href="#contacts"> Contacts</a></li>
+                     <li><a data-goto="#home" class="menu__link" href="#home"> Home</a></li>
+                     <li><a data-goto="#about-me" class="menu__link" href="#about-me"> About me</a></li>
+                     <li><a data-goto="#skills" class="menu__link" href="#skills"> Skills</a></li>
+                     <li><a data-goto="#portfolio" class="menu__link" href="#portfolio"> Portfolio</a></li>
+                     <li><a data-goto="#contacts" class="menu__link" href="#contacts"> Contacts</a></li>
                   </ul>
                </nav>
             </div>
@@ -233,6 +238,7 @@
          </div>
       </footer>
    </div>
+   <script src="./js/script.js"></script>
 </body>
 
 </html>

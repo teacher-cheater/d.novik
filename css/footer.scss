@@ -1,15 +1,6 @@
 /*--------------------footer------------*/
 .footer {
    background-color: #fff;
-   // .footer__container
-
-   &__container {
-   }
-
-   // .footer__block-contacts
-
-   &__block-contacts {
-   }
 }
 
 .subtitle {
@@ -27,15 +18,7 @@
    padding: 114px 0 123px 0;
    @media (max-width: 767.98px) {
       padding: 82px 0 90px 0;
-
    }
-
-   // .contacts__content
-
-   &__content {
-   }
-
-   // .contacts__text
 
    &__text {
       margin-bottom: 30px;
@@ -43,12 +26,6 @@
          margin-bottom: 40px;
          
       }
-   }
-
-   // .contacts__btn
-
-   &__btn {
-
    }
 
    // .contacts__social
@@ -79,17 +56,6 @@
       text-align: center;
       color: #828282;
    }
-
-   // .contacts__like-me
-
-   &__like-me {
-      
-   }
-
-   // .contacts__social-text
-
-   &__social-text {
-   }
 }
 .title h2{
    font-weight: 700;
@@ -105,7 +71,6 @@
    }
 }
 .button {
-
    text-align: center;
    // .button__message
 

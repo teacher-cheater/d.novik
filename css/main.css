@@ -1,5 +1,5 @@
 .main__body {
-  padding: 40px 0;
+  padding: 10px 0;
 }
 
 .main__pictures {
@@ -57,7 +57,7 @@
 }
 
 .top__name {
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   font-size: 47px;
   line-height: 59px;
   color: #070707;
@@ -98,7 +98,7 @@
 
 /*----------------------------------*/
 .main-block-1__about {
-  background: #F6F6F6;
+  background: #f6f6f6;
   padding: 120px 0 107px 0;
 }
 
@@ -241,7 +241,7 @@
 }
 
 .main-block-3__porfolio {
-  background: #F6F6F6;
+  background: #f6f6f6;
 }
 
 .main-block-3__content {
@@ -291,7 +291,9 @@
   margin: 0 auto;
 }
 
-.example__woman img, .example__reebok img, .example__braun img {
+.example__woman img,
+.example__reebok img,
+.example__braun img {
   max-width: 100%;
 }
 
