@@ -3,14 +3,8 @@
     display: none;
   }
 
-  &__list > li {
-    position: relative;
-    margin: 0 0 0 20px;
-    list-style: none;
-  }
-
   &__link {
-    color: #fff;
+    color: #000;
     font-style: 18px;
     text-decoration: none;
   }
@@ -43,8 +37,8 @@
       &::before,
       &::after {
         content: "";
-        background-color: #000000;
-        filter: drop-shadow(0 0 0.85rem rgb(255, 255, 255));
+        background-color: #000;
+        filter: drop-shadow(0 0 0.9rem rgb(255, 255, 255));
         position: absolute;
         width: 100%;
         height: 3px;
@@ -58,7 +52,7 @@
       }
       span {
         position: absolute;
-        background-color: #000000;
+        background-color: #000;
         width: 100%;
         height: 3px;
         transition: all 0.3s ease 0s;
@@ -90,7 +84,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.9);
+      background-color: #fff;
       padding: 60px 30px 30px 30px;
       transition: left 0.3s ease 0s;
       overflow: auto;
@@ -103,7 +97,9 @@
       margin-bottom: 30px;
     }
     .menu__link {
-      font-size: 24px;
+      font-size: 34px;
+      line-height: 42px;
+      color: #090909;
     }
   }
 }

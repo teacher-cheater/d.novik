@@ -101,14 +101,8 @@ html {
   display: none;
 }
 
-.menu__list > li {
-  position: relative;
-  margin: 0 0 0 20px;
-  list-style: none;
-}
-
 .menu__link {
-  color: #fff;
+  color: #000;
   font-style: 18px;
   text-decoration: none;
 }
@@ -145,9 +139,9 @@ html {
   }
   .menu .menu__icon::before, .menu .menu__icon::after {
     content: "";
-    background-color: #000000;
-    -webkit-filter: drop-shadow(0 0 0.85rem white);
-            filter: drop-shadow(0 0 0.85rem white);
+    background-color: #000;
+    -webkit-filter: drop-shadow(0 0 0.9rem white);
+            filter: drop-shadow(0 0 0.9rem white);
     position: absolute;
     width: 100%;
     height: 3px;
@@ -163,7 +157,7 @@ html {
   }
   .menu .menu__icon span {
     position: absolute;
-    background-color: #000000;
+    background-color: #000;
     width: 100%;
     height: 3px;
     -webkit-transition: all 0.3s ease 0s;
@@ -202,7 +196,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.899);
+    background-color: #fff;
     padding: 60px 30px 30px 30px;
     -webkit-transition: left 0.3s ease 0s;
     -o-transition: left 0.3s ease 0s;
@@ -221,7 +215,9 @@ html {
     margin-bottom: 30px;
   }
   .menu .menu__link {
-    font-size: 24px;
+    font-size: 34px;
+    line-height: 42px;
+    color: #090909;
   }
 }
 
@@ -230,20 +226,28 @@ html {
 }
 
 .main__pictures {
-  padding: 0 0 40% 0;
   margin-bottom: 104px;
 }
 
-@media (max-width: 767.98px) {
-  .main__pictures {
-    display: none;
-  }
+.img__main-mobile {
+  display: none;
 }
 
 @media (max-width: 767.98px) {
-  .main__pictures-mobile {
-    padding: 0 0 148.265% 0;
+  .img__main-mobile {
+    width: 100%;
     margin-bottom: 83px;
+    display: block;
+  }
+}
+
+.img__main-image {
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .img__main-image {
+    display: none;
   }
 }
 
@@ -693,18 +697,4 @@ body.lock {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-}
-
-._ibg {
-  position: relative;
-}
-
-._ibg img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
 }

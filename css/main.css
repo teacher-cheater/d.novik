@@ -3,20 +3,28 @@
 }
 
 .main__pictures {
-  padding: 0 0 40% 0;
   margin-bottom: 104px;
 }
 
-@media (max-width: 767.98px) {
-  .main__pictures {
-    display: none;
-  }
+.img__main-mobile {
+  display: none;
 }
 
 @media (max-width: 767.98px) {
-  .main__pictures-mobile {
-    padding: 0 0 148.265% 0;
+  .img__main-mobile {
+    width: 100%;
     margin-bottom: 83px;
+    display: block;
+  }
+}
+
+.img__main-image {
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .img__main-image {
+    display: none;
   }
 }
 
