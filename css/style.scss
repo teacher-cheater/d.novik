@@ -5,41 +5,35 @@
 @import "main";
 @import "footer";
 
-
 body {
-	line-height: 1;
-	font-family: "Gilroy", 'Gilroy-bold';
+  line-height: 1;
+  font-family: "Gilroy", "Gilroy-bold";
 }
-body.lock{
-	overflow: hidden;
+body.lock {
+  overflow: hidden;
 }
 .wrapper {
-	min-height: 100%;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 [class*="__container"] {
-	max-width: 970px;
-	margin: 0px auto;
-	padding: 0px 15px;
+  max-width: 970px;
+  margin: 0px auto;
+  padding: 0px 15px;
 }
 .main {
-	flex-grow: 1;
+  flex-grow: 1;
 }
 ._ibg {
-	position: relative;
-	img {
-		object-fit: cover;
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-	}
+  position: relative;
+  img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
 }
-
-
-
-
-
